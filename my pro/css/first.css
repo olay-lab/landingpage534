@@ -1,0 +1,167 @@
+.sectt{
+    height:650px;
+}
+#div {
+    float: left;
+  }
+  .cray{
+    top: 3744px;
+    left: 611px;
+    width: 241px;
+    font-size: small;
+    height: 160px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #34344E;
+    opacity: 1;
+    margin-left:74px;
+}
+.two {
+    width: 65px;
+    height: 70px;
+    background-color:#00D1FC;
+    border-radius: 10px;
+  }
+  
+  .three {
+    width: 65px;
+    height: 70px;
+    background-color:#FB9D44;
+    border-radius: 10px;
+  }
+  .four {
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FD4D54;
+  }
+  
+  .five {
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    background-color:#313FD6;
+  }
+  .pad{
+    padding-bottom:80px;
+  }
+  .padi{
+    display: flex;
+    height:90%;
+    width:90%;
+  }
+  .bro{
+    width: 777px;
+    height: auto;
+  }
+  .junior{
+    padding-top:200px;
+    font-size: 13px;
+  }
+  @media only screen and (max-width: 1100px) {
+    .padi{
+        display: grid;
+    }
+    .junior{
+      padding-top:0px;
+    }
+    .bro{
+        width:483px;
+        display: flex;
+    }
+    }
+    .wrapper{
+        max-width:1200px;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+    }
+    .wrapper .box{
+        background-color:whitesmoke;
+        border-radius:3px;
+        padding:25px;
+        width:calc(33% - 10px);
+    }
+    .wrapper .box i.quote{
+        font-size: 20px; 
+        color:#17a2b8;
+    }
+    .wrapper .box .content{
+       font-size:17px;
+       font-weight: 600;
+    }
+    .wrapper .box .info .name{
+        font-size:16px;
+        font-weight:500;
+
+    }
+    .image{
+        border-radius:30px;
+        height:120px;
+        width:259px;
+    }
+    .imag{
+        border:1px solid gray;
+        width: 70px;
+        background-color: #fff;
+        height:70px;
+        border-radius:30px;
+    }
+    ::selection{
+        background-color:limegreen;
+        color: white;
+    }
+    .name,.job{
+        margin-left:10px;
+    }
+    .box{
+        margin:15px;
+    }
+    @media (max-width: 1045px){
+        .wrapper .box{
+            width: calc(50% - 10px);
+            margin:10px 0;
+        }
+    }
+    @media (max-width: 702px){
+        .wrapper .box{
+            width:100%;
+        }
+    }
+    .town{
+        width:600px;
+        padding:44px;
+        padding-top:176px;
+        padding-left:150px;
+    }
+    .city{
+        display: flex;
+    }
+    .bis{
+        margin-left:12px;
+    }
+    .lim{
+        padding-top:23px;
+    }
+    .store{
+        padding-top:34px;
+    }
+    @media only screen and (max-width: 1100px){
+       .city{
+        display: grid;
+       }
+       .town{
+        width:380px;
+       }
+       .yah{
+        width:482px;
+       }
+       .area{
+        width:350px;
+       }
+        }
+        .social-links{
+            padding-top:55px;
+        }
